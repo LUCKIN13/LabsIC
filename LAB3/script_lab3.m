@@ -52,7 +52,7 @@ U_0 = Omega_0;
     
         z= z_values(i);
         oltf_PD = tf ([1 z], [1 300 0 0]);
-        hold on
+ 
         rlocus (oltf_PD)
         
 
